@@ -1,106 +1,79 @@
+<!-- this is my third or fourth website and my code is still a mess, please be nice -->
 <!DOCTYPE html>
-<!-- i know my code is a mess, it's my first website pls be nice -->
 <html lang="en">
 	<head>
 		<title>Jaspev's Homepage</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="img/fav.ico" type="image/ico">
 		<link rel="stylesheet" href="style.css">
-		<script src="dat/jquery-1.7.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			//<![CDATA[
-			$(window).load(function() {
-				var audio;
-				var playlist;
-				var tracks;
-				var current;
-				init();
-
-				function init() {
-					current = 0;
-					audio = $('audio');
-					playlist = $('#playlist');
-					tracks = playlist.find('li a');
-					len = tracks.length;
-					audio[0].volume = 1;
-					audio[0].play();
-					playlist.find('a').click(function(e) {
-						e.preventDefault();
-						link = $(this);
-						current = link.parent().index();
-						run(link, audio[0]);
-					});
-					audio[0].addEventListener('ended', function(e) {
-						current++;
-						if (current == len) {
-							current = 0;
-							link = playlist.find('a')[0];
-						} else {
-							link = playlist.find('a')[current];
-						}
-						run($(link), audio[0]);
-					});
-				}
-
-				function run(link, player) {
-					player.src = link.attr('href');
-					par = link.parent();
-					par.addClass('active').siblings().removeClass('active');
-					audio[0].load();
-					audio[0].play();
-				}
-			}); //]]> 
-		</script>
 	</head>
 	<body>
-		<div class="bg" style="animation: bgScroll 4s linear infinite;"></div>
-		<div class="card">
-			<!-- <h1 style="margin: 10px;">Jaspev's Homepage</h1> -->
-			<img src="img/banner.gif">
-			
-			<hr style="margin: 0px;" color=#9DBD22>
-
-			<div style="margin: 10px" id="linklist">
-				<a id="link" href="https://twitter.com/jaspevv">twitter</a> |
-				<a id="link" href="https://www.youtube.com/@jaspev">youtube</a> |
-				<a id="link" href="https://soundcloud.com/jaspev">soundcloud</a> |
-				<a id="link" href="https://www.last.fm/user/Jaspev">last.fm</a>
-				<br>
-				<a id="link" href="https://www.youtube.com/@jaspevmusic">my music discog</a> |
-				<a id="link" href="https://www.youtube.com/@MusicICantFindOnYT">music i cant find on yt</a>
-			</div>
-			
-			<p style="font-size: 17px; margin: 10px;">Discord: Jaspev#6413</p>
-			
-			<div id="aboutme">
-				Hello, my name is Jaspev. I make music, videos, gfx, and now websites, I guess. I was born in 2003 and at ~9 years old my parents introduced me to a low spec windows 7 pc. This was my first time on the internet, and ever since then I've been learning more and more about the internet and computer software. I'm currently proficient in After Effects, Photoshop, Fl Studio, and many small miscellaneous applications.
-				<br>
-				<br>
-				I also like playing videogames, and I can barely remember the first games I've ever played, but I do remember Jet Set Radio Future on the original Xbox. Later, when I got a computer for the first time, I remember playing Coolmath-games, Club Penguin, Minecraft, Roblox, etc.
-				<br>
-				<br>
-				I also really like listening to and discovering new music, and below you can hear some of my favorites. If you like those, click <a style="color: #9DBD22; text-decoration: none;" href="https://www.youtube.com/playlist?list=PLgLjWAgOMjD-ew_EMcIfLx2HCmn-UZC2E">here</a> to see my full music playlist. (music player stolen from <a style="color: #9DBD22; text-decoration: none;" href="https://heckscaper.com/">Emma Essex</a>)
-			</div>
-			
-			<div id="musicstuff">
-				<audio controls id="audio" autoplay="false" tabindex="0"></audio>
-				<ul id="playlist">
-					<li><a href="mus/osquinn - i dont want that many friends in the first place.mp3">osquinn - i dont want that many friends in...</a></li>
-					<li><a href="mus/ASMZ - 13 Angels Standing Guard 'Round the Side of Your Bed.mp3">ASMZ - 13 Angels Standing Guard 'Round the...</a></li>
-					<li><a href="mus/Casino Versus Japan - Marilyn Set Me Free.mp3">Casino Versus Japan - Marilyn Set Me Free</a></li>
-					<li><a href="mus/RQ feat. Emoticon - TURFMASTAZ!.mp3">RQ feat. Emoticon - TURFMASTAZ!</a></li>
-					<li><a href="mus/The Quick Brown Fox - WANDERLUST.mp3">The Quick Brown Fox - WANDERLUST</a></li>
-					<li><a href="mus/Lil Darkie - Black Sheep.mp3">Lil Darkie - Black Sheep</a></li>
-					<li><a href="mus/Burzum - Dunkelheit.mp3">Burzum - Dunkelheit</a></li>
-					<li><a href="mus/Hyakkei - Kagefumi.mp3">Hyakkei - Kagefumi</a></li>
-					<li><a href="mus/im6ges - hit4.mp3">im6ges - hit4</a></li>
-					<li><a href="mus/RQ - 20,n.mp3">RQ - 20,n</a></li>
-				</ul>
-			</div>
-			<!-- dengeki bottom right -->
-			<div id="logo"></div>
-			<br>
+		<header>
+			jaspev's homepage
+		</header>
+		<div>
+			<ul>
+				socials:
+				<li><a href="https://twitter.com/jaspevv" target="_blank">twitter</a></li>
+				<li><a href="https://www.youtube.com/jaspev" target="_blank">youtube</a></li>
+				<li><a href="https://www.last.fm/user/Jaspev" target="_blank">last.fm</a></li>
+				<li><a href="https://soundcloud.com/jaspev" target="_blank">soundcloud</a></li>
+			</ul>
+			<ul>
+				<li>projects:</li>
+				<li><a href="wunder.html" target="_blank">wunder (wip)</a></li>
+				<li><a href="https://www.youtube.com/@jaspevmusic" target="_blank">music</a></li>
+				<li><a href="https://www.youtube.com/@oogstelpodcast" target="_blank">podcast</a></li>
+				<li><a href="https://github.com/Jaspev" target="_blank">github</a></li>
+			</ul>
+			<ul>
+				<li>misc:</li>
+				<li><a href="https://www.youtube.com/playlist?list=PLgLjWAgOMjD-ew_EMcIfLx2HCmn-UZC2E" target="_blank">my playlist</a>
+				<li><a href="https://www.youtube.com/c/MusicICantFindOnYT" target="_blank">musicicantfind</a></li>
+				<li><a href="old/index.html" target="_blank">2022 site</a></li>
+			</ul>
+		</div>
+		<div>
+			<p>
+				hello, my name is jaspev. i make videos, music, websites, etc. recently i've been focusing on making music, and programming my <a href="wunder.html" target="_blank">first game</a> using <a href="https://godotengine.org/en" target="_blank">godot</a>.
+			</p>
+		</div>
+		<div>
+			<p>
+				here's some of the music i've been working on:
+			</p>
+		</div>
+		<p class="audioplayer" style="color:#755; background-color: #211">volume warning</p>
+		<br>
+		<p class="audioplayer">boss.ogg</p>
+		<audio class="audioplayer" controls="">
+			<source src="mus/boss.ogg" type="audio/ogg">
+			Whatever browser you're using, it does not support the audio element.
+		</audio>
+		<br>
+		<p class="audioplayer">clearing.ogg</p>
+		<audio class="audioplayer" controls="">
+			<source src="mus/clearing.ogg" type="audio/ogg">
+			Whatever browser you're using, it does not support the audio element.
+		</audio>
+		<br>
+		<p class="audioplayer">ladybug.ogg</p>
+		<audio class="audioplayer" controls="">
+			<source src="mus/ladybug.ogg" type="audio/ogg">
+			Whatever browser you're using, it does not support the audio element.
+		</audio>
+		<br>
+		<p class="audioplayer">pianopianopianopianopiano.ogg</p>
+		<audio class="audioplayer" controls="">
+			<source src="mus/pianopianopianopianopiano.ogg" type="audio/ogg">
+			Whatever browser you're using, it does not support the audio element.
+		</audio>
+		<div class="goodbye">
+			<p style="width: 40em; text-align: center;">
+				last updated: 2023-01-14 | made in <a href="https://notepad-plus-plus.org/" target="_blank">notepad++</a>
+			</p>
 		</div>
 	</body>
 </html>
