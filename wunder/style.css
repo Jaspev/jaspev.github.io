@@ -1,0 +1,57 @@
+@font-face {
+	font-family: jpix5;
+	src: url(fonts/jpix5.ttf);
+}
+
+@font-face {
+	font-family: jpix10;
+	src: url(fonts/jpix10.ttf);
+}
+
+html {
+	margin: 73px;
+	background-color: #000;
+	font-family: jpix5;
+	color: #fff;
+}
+
+body {
+	width: 935px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: jpix10;
+	font-size: 144px;
+	margin: 0px;
+	margin-bottom: 22px;
+}
+
+a {
+	font-size: 77px;
+	color: #fff;
+	display: block;
+	margin: 0px;
+	padding-bottom: 11px;
+	text-decoration: none;
+}
+
+.aboutlinks {
+	display: inline;
+	font-size: 36px;
+	color: #ddf;
+}
+
+p {
+	text-align: justify;
+	font-size: 36px;
+	color: #fff;
+	display: block;
+	margin: 0px;
+	line-height: 41px;
+}
+
+.back {
+	position: absolute;
+	bottom: 73px;
+}
