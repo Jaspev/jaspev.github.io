@@ -11,42 +11,6 @@
 	100% {transform: translateY(0px);}
 }
 
-.headtitle {
-	font-size: 65px;
-	text-align: center;
-	padding-top: 10px;
-	font-family: PPMonumentExtended;
-}
-
-.headtitle span {
-	display: inline-block;
-	animation: idlepos 4s ease-in-out infinite;
-	animation-delay: calc(0.5s * var(--i));
-}
-
-.red {
-	color: #d55367;
-}
-
-.orange {
-	color: #f47f4b;
-}
-
-.yellow {
-	color: #cbae45;
-}
-
-.green {
-	color: #628542;
-}
-
-.blue {
-	color: #5c7a8e;
-}
-
-.indigo {
-	color: #744e7a;
-}
 
 header {
 	height: 90px;
@@ -84,6 +48,12 @@ hr {
 	margin-bottom: 15px;
 }
 
+h2 {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 iframe {
 	margin-top: 10px;
 }
@@ -94,6 +64,61 @@ section {
 	margin-left: auto;
 }
 
+table {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+td, th {
+	border: 1px solid #666;
+	padding: 10px;
+}
+
+.resources {
+	font-size: 14px;
+	width: 580px;
+}
+
+.resources a {
+	color: #d55367;
+}
+
+.headtitle {
+	font-size: 65px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: PPMonumentExtended;
+}
+
+.headtitle span {
+	display: inline-block;
+	animation: idlepos 4s ease-in-out infinite;
+	animation-delay: calc(0.5s * var(--i));
+}
+
+.red {
+	color: #d55367;
+}
+
+.orange {
+	color: #f47f4b;
+}
+
+.yellow {
+	color: #cbae45;
+}
+
+.green {
+	color: #628542;
+}
+
+.blue {
+	color: #5c7a8e;
+}
+
+.indigo {
+	color: #744e7a;
+}
 
 .links {
 	display: flex;
@@ -119,8 +144,8 @@ section {
 	width: 128px;
 	height: 128px;
 	position: relative;
-	left: 394px;
-	top: -28px;
+	left: 376px;
+	top: -56px;
 	-webkit-animation: rotation 4s infinite ease-in-out;
 }
 
