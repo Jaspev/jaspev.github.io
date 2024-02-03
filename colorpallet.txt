@@ -1,6 +1,0 @@
-red:	#d55367
-orange:	#f47f4b
-yellow:	#cbae45
-green:	#628542
-blue:	#5c7a8e
-indigo:	#744e7a

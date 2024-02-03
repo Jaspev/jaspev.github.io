@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>How This Site Was Made | Jaspev&#39;s Homepage</title>
+<link rel="canonical" href="../../">
+<link rel='alternate' type='application/rss+xml' title="Jaspev&#39;s Homepage RSS" href='../../index.xml'>
+<link rel='stylesheet' type='text/css' href='../../style.css'>
+<meta name="description" content="Everything about this website, other than the custom domain name, was free (and even then, the domain name costs about 12 bucks per YEAR just for a cosmetic thing that you don&rsquo;t need at all). This website was made in less than a week on a Windows 10 pc with Hugo, a popular static site generator, and hosted on Github Pages, a free static site hosting service working through Github. Anyone with a computer can make the site you are seeing now.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="main">
+			<div class="hbox">
+				<div class="vbox">
+					<nav> 
+	<header style="padding-bottom:10px; padding-top:10px">
+		<h2 class="wavyheader" style="width: 88px;">
+			<a href="../../">
+				<span style="--i:0">J</span><span style="--i:1">A</span><span style="--i:2">S</span><span style="--i:3">P</span><span style="--i:4">E</span><span style="--i:5">V</span>
+			</a>
+		</h2>
+	</header>
+	<hr>
+	<div style="padding-top:10px">
+		<ul style="text-align: center;">
+			
+				<li>
+					<a href="../../about/">
+						About</a>
+				</li>
+			
+				<li>
+					<a href="../../blogs/">
+						Blogs</a>
+				</li>
+			
+				<li>
+					<a href="../../contact/">
+						Contact</a>
+				</li>
+			
+				<li>
+					<a href="../../games/">
+						Games</a>
+				</li>
+			
+				<li>
+					<a href="../../misc/">
+						Misc</a>
+				</li>
+			
+				<li>
+					<a href="../../music/">
+						Music</a>
+				</li>
+			
+				<li>
+					<a href="../../resources/">
+						Resources</a>
+				</li>
+			
+				<li>
+					<a href="../../samples/">
+						Samples</a>
+				</li>
+			
+				<li>
+					<a href="../../updates/">
+						Updates</a>
+				</li>
+			
+				<li>
+					<a href="../../visuals/">
+						Visuals</a>
+				</li>
+			
+		</ul>
+	</div>
+</nav>
+				</div>
+				<div class="vbox">
+					<main style="padding:20px; padding-right:0px;">
+						
+	
+		2024.01.26
+	
+	<h1>
+		How This Site Was Made
+	</h1>
+	<p>Everything about this website, other than the custom domain name, was free (and even then, the domain name costs about 12 bucks per <em><strong>YEAR</strong></em> just for a cosmetic thing that <em>you don&rsquo;t need at all</em>). This website was made in less than a week on a Windows 10 pc with <a href="https://gohugo.io/">Hugo</a>, a popular static site generator, and hosted on <a href="https://pages.github.com/">Github Pages</a>, a free static site hosting service working through Github. Anyone with a computer can make the site you are seeing now.</p>
+<br>
+<p>When I began making this website, before I did anything, before I wrote a single line of code, before I even knew that I would be using Hugo, I needed to know what my site was going to look like first. I had some kind of image in my head that I tried to sketch out at the time, that looked something like this:
+<br></p>
+<p><img src="../../images/htswm01mockup.png" alt="My mockup for this current site">
+After I whipped this masterpiece up in ms paint, I started recreating it just using html and css, and as you can tell, this isn&rsquo;t exactly how the site turned out. When I was recreating it, I found that I didn&rsquo;t really like the side header thing and I didn&rsquo;t really like all the <code>&lt;hr&gt;</code> elements. So I turned it into the design you see today, but you can see some remnants that came from that simple mockup, like the nav on the left (with pretty much the same contents), and with the header and content on the right.</p>
+<br>
+<p>I also didn&rsquo;t want to have a black and white site. So after I found the layout I liked, I needed to decide on a color palette. To do that, I just stole some colors directly from random photos, album covers, and random drawings and stuff off Twitter that I liked. I came up with 9 color palettes and decided on one.
+<br></p>
+<p><img src="../../images/htswm02colors.png" alt="My mockup for this current site">
+<br></p>
+<p>After finishing the layout in html and css, I knew at the time that I didn&rsquo;t want to make the whole site using nothing but html and css. I&rsquo;ve made multiple sites before using just html and css, and I wanted more with this current site compared to the previous ones, and &ldquo;more&rdquo; would just be incredibly hard and tedious to make without something like a static site generator. A static site generator (at least the one I&rsquo;m using) allows you to basically make a layout for your site (a layout being your style.css and index.html), then you can place variables like &ldquo;{{.Content}}&rdquo; in the place where something like a blog post would be, and it just kind of knows what content you want based on what page you&rsquo;re on, to put it really simply. Then the actual content is written in markdown files. Specifically what you&rsquo;re reading right now is in the blogs folder, and the blogs folder is placed in the content folder, and that&rsquo;s kind of how my static site generator knows to display this specific blog to you.</p>
+<br>
+<p>But that&rsquo;s basically it with the actual <em>making</em> of the site. I made a mockup in ms paint. I recreated that mockup in raw html and css, while making some small changes along the way. I found and learned how to use a static site generator that I liked (Hugo), and implemeted that raw html and css to work with Hugo. After that I used Github Pages to actually host my site, and I used Google Domains to buy my domain (whereas before the domain was jaspev.github.io).</p>
+<br>
+<p>I&rsquo;d like to note that if you&rsquo;re just starting making websites, you <strong>should</strong> use nothing but html and css at first (or just use Wordpress or something). Because static site generators aren&rsquo;t &ldquo;magic&rdquo;. You still need to know html and css to create a site using static site generators, they just do a lot of copying and pasting for you that you would be doing otherwise. And don&rsquo;t be discouraged, so many incredible websites <em>can</em> and <strong>have</strong> been made using raw html and css. When you&rsquo;re starting, you just need to build a foundation of knowledge to build off of. (And even then, if you don&rsquo;t have fun making a site with raw html and css, then you probably won&rsquo;t have fun making a site with something like hugo.) But anyway, this isn&rsquo;t a guide on how to make websites though&hellip;</p>
+<br>
+<p>If you want to see the Hugo code for this site, you can see it on my github, <a href="https://github.com/Jaspev/first-hugo-site">here</a>. (I really don&rsquo;t recommend learning from it though, I learned Hugo and put this site together in less than a week, so I might be doing everything wrong. But hey, the site works! So learn at your own risk.)</p>
+<br>
+<p>Thank you for reading! :)</p>
+
+	
+
+					</main>
+				</div>
+			</div>
+			<div class="center">
+				<footer>
+	This site was made with <a href="https://gohugo.io/">Hugo</a>, hosted on <a href="https://pages.github.com/">Github Pages</a>.
+</footer>
+			</div>
+		</div>
+	</body>
+</html>

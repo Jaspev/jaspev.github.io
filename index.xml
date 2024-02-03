@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaspev&#39;s Homepage</title>
+    <link>/</link>
+    <description>Recent content on Jaspev&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Feb 2024 00:01:24 -0700</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initialization</title>
+      <link>/updates/initialization/</link>
+      <pubDate>Sat, 03 Feb 2024 00:01:24 -0700</pubDate>
+      <guid>/updates/initialization/</guid>
+      <description>I FINALLY MADE A WEBSITE I LIKE, THAT IS EASY TO UPDATE AND MANAGE, AND THIS IS THE FIRST UPDATE POST. I made a more in-depth blog post about the history of this site, and also how this site was made if you want to learn more.</description>
+    </item>
+    <item>
+      <title>How to Download Everything On The Internet</title>
+      <link>/blogs/how-to-download/</link>
+      <pubDate>Tue, 30 Jan 2024 11:23:30 -0700</pubDate>
+      <guid>/blogs/how-to-download/</guid>
+      <description>Secretly an intro into working with command-line Not as scary as it sounds, I promise! No more going to sketchy websites for downloading YouTube videos, Twitter videos, songs off Soundcloud, songs off Bandcamp, etc. There is a way to download content from these sites directly and easily with no sketchy website, all from an application on your computer. You can set this up on any OS, but I&amp;rsquo;m specifically going to show you how to set it up on a Windows 10 PC, because that&amp;rsquo;s what I have, and stats show that&amp;rsquo;s probably what you have too.</description>
+    </item>
+    <item>
+      <title>Like Blood From a Stone</title>
+      <link>/blogs/like-blood-from-a-stone/</link>
+      <pubDate>Mon, 29 Jan 2024 12:41:14 -0700</pubDate>
+      <guid>/blogs/like-blood-from-a-stone/</guid>
+      <description>The song &amp;ldquo;like blood from a stone&amp;rdquo; by Old Gray is Genius. If you haven&amp;rsquo;t heard the song, I recommend listening to it before reading this blog post. It&amp;rsquo;s corny at the beginning, but I think it&amp;rsquo;s corny on purpose. You can listen to it on YouTube here.&#xA;I really like this song. The song just follows the writer as they go through a major and pivotal part in their life, in the form of a poem, and we watch them get more mature over time.</description>
+    </item>
+    <item>
+      <title>This Site&#39;s History</title>
+      <link>/blogs/history/</link>
+      <pubDate>Sat, 27 Jan 2024 18:33:34 -0700</pubDate>
+      <guid>/blogs/history/</guid>
+      <description>Site 1: Pretty Outside, Ugly Inside. This was my first website, made some time in late 2022. Even now I still think this website looks quite nice. It&amp;rsquo;s background would scroll, it had an animated gif with bouncing letters as the banner, the icon in the bottom right would rotate back and forth, and it even had a music player (using javascript that I stole from another site) that would play of some of my favorite music!</description>
+    </item>
+    <item>
+      <title>How This Site Was Made</title>
+      <link>/blogs/how-this-site-was-made/</link>
+      <pubDate>Fri, 26 Jan 2024 22:53:06 -0700</pubDate>
+      <guid>/blogs/how-this-site-was-made/</guid>
+      <description>Everything about this website, other than the custom domain name, was free (and even then, the domain name costs about 12 bucks per YEAR just for a cosmetic thing that you don&amp;rsquo;t need at all). This website was made in less than a week on a Windows 10 pc with Hugo, a popular static site generator, and hosted on Github Pages, a free static site hosting service working through Github. Anyone with a computer can make the site you are seeing now.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>Hello! I&amp;rsquo;m Jaspev. I made the site you&amp;rsquo;re looking at right now. :) I make music, I make games, I make websites, I make samples, I make visuals. I make a lot of stuff. You can see all my work in the nav on the left. If you wanna contact me for anything, please do! You can find me here:&#xA;Twitter&#xA;YouTube&#xA;Soundcloud&#xA;Bandcamp I have a Discord server as well, originally made for a music YouTube channel I run, which is now used for music events.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/contact/</guid>
+      <description>If you have a question for me, or if you find a problem with this site, feel free to contact me through the methods below.&#xA;This list is in order of response speed (fastest at the top):&#xA;Discord: jaspev&#xA;Twitter: @jaspevv&#xA;Email: jaspevyt@gmail.com</description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>/games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/games/</guid>
+      <description>I actually have yet to finish a game, I&amp;rsquo;ve only finished one Roblox game. But I promise this page will be filled out more this year. I am currently working on a game called Pendulum!&#xA;2023.09.28&#xA;Aimbot Tycoon (Roblox) A Roblox game where you have to click targets to get money, to buy upgrades for your base. I did programming and building, and my friend KomradeKat did building as well. Play it here!</description>
+    </item>
+    <item>
+      <title>Misc</title>
+      <link>/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/misc/</guid>
+      <description>For now, this page is just for my gmod maps.&#xA;Gmod maps: 2023.03.14&#xA;ph_jaspevsmotel [link] Prophunt motel map with 13(?) unique rooms, bunch of secrets, easter eggs, custom textures, an error. It has it all! Actually it doesn&amp;rsquo;t, I forgot to add more than 3 spawns and it&amp;rsquo;s been almost a year since I made this map, so it&amp;rsquo;s never getting updated. (Don&amp;rsquo;t look at the comments.)&#xA;2022.07.06&#xA;gm_voidroundabout [link] Ambient liminal space gmod map.</description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/music/</guid>
+      <description>I make a lot of music. The list below isn&amp;rsquo;t my full discography, you can see my full discography on my YouTube.&#xA;2023.11.28&#xA;Rooted on Seabed 2023.10.10&#xA;Unprintable 2023.07.28&#xA;DIE 2023.06.22&#xA;Wunder OST 2023.06.10&#xA;403 Forbidden 2023.06.03&#xA;Broken Image 2023.05.28&#xA;321go </description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/</guid>
+      <description>Just a massive list of sites that I like, no particular order. Contains other site resources / directories, fun websites to play around in, archival sites, literature, tools, sites that I simply think look clean, and artists&amp;rsquo; sites that I like.&#xA;I&amp;rsquo;d like to note, click around here at your own risk. I&amp;rsquo;m pretty sure (as of making this list, 2024.02.02) all these links are safe. But I&amp;rsquo;m not going to put too much effort into maintaining this list at all, to be honest.</description>
+    </item>
+    <item>
+      <title>Samples</title>
+      <link>/samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/samples/</guid>
+      <description>I make audio samples sometimes, for use in music/games/whatever. File sizes are after extracting. Download links link to Mediafire. All samples are under license CC BY-SA 4.0.&#xA;gif2wav [download 214KB] 14 little crunchy noise samples that are slightly tonal sometimes. Made by putting 88x11 gifs into OpenMPT. No idea how or why that makes these sounds, but I like them. So here they are.&#xA;oscText [download 46KB] A font(?) samplepack(?). 26 single wave audio files.</description>
+    </item>
+    <item>
+      <title>Visuals</title>
+      <link>/visuals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/visuals/</guid>
+      <description>I sometimes make visuals for my own music, or music that like. I post all my visuals on YouTube, but you can see some of my favorites below:</description>
+    </item>
+  </channel>
+</rss>

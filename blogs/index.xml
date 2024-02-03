@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Jaspev&#39;s Homepage</title>
+    <link>/blogs/</link>
+    <description>Recent content in Blogs on Jaspev&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jan 2024 22:53:06 -0700</lastBuildDate>
+    <atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Download Everything On The Internet</title>
+      <link>/blogs/how-to-download/</link>
+      <pubDate>Tue, 30 Jan 2024 11:23:30 -0700</pubDate>
+      <guid>/blogs/how-to-download/</guid>
+      <description>Secretly an intro into working with command-line Not as scary as it sounds, I promise! No more going to sketchy websites for downloading YouTube videos, Twitter videos, songs off Soundcloud, songs off Bandcamp, etc. There is a way to download content from these sites directly and easily with no sketchy website, all from an application on your computer. You can set this up on any OS, but I&amp;rsquo;m specifically going to show you how to set it up on a Windows 10 PC, because that&amp;rsquo;s what I have, and stats show that&amp;rsquo;s probably what you have too.</description>
+    </item>
+    <item>
+      <title>Like Blood From a Stone</title>
+      <link>/blogs/like-blood-from-a-stone/</link>
+      <pubDate>Mon, 29 Jan 2024 12:41:14 -0700</pubDate>
+      <guid>/blogs/like-blood-from-a-stone/</guid>
+      <description>The song &amp;ldquo;like blood from a stone&amp;rdquo; by Old Gray is Genius. If you haven&amp;rsquo;t heard the song, I recommend listening to it before reading this blog post. It&amp;rsquo;s corny at the beginning, but I think it&amp;rsquo;s corny on purpose. You can listen to it on YouTube here.&#xA;I really like this song. The song just follows the writer as they go through a major and pivotal part in their life, in the form of a poem, and we watch them get more mature over time.</description>
+    </item>
+    <item>
+      <title>This Site&#39;s History</title>
+      <link>/blogs/history/</link>
+      <pubDate>Sat, 27 Jan 2024 18:33:34 -0700</pubDate>
+      <guid>/blogs/history/</guid>
+      <description>Site 1: Pretty Outside, Ugly Inside. This was my first website, made some time in late 2022. Even now I still think this website looks quite nice. It&amp;rsquo;s background would scroll, it had an animated gif with bouncing letters as the banner, the icon in the bottom right would rotate back and forth, and it even had a music player (using javascript that I stole from another site) that would play of some of my favorite music!</description>
+    </item>
+    <item>
+      <title>How This Site Was Made</title>
+      <link>/blogs/how-this-site-was-made/</link>
+      <pubDate>Fri, 26 Jan 2024 22:53:06 -0700</pubDate>
+      <guid>/blogs/how-this-site-was-made/</guid>
+      <description>Everything about this website, other than the custom domain name, was free (and even then, the domain name costs about 12 bucks per YEAR just for a cosmetic thing that you don&amp;rsquo;t need at all). This website was made in less than a week on a Windows 10 pc with Hugo, a popular static site generator, and hosted on Github Pages, a free static site hosting service working through Github. Anyone with a computer can make the site you are seeing now.</description>
+    </item>
+  </channel>
+</rss>

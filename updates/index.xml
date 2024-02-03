@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Jaspev&#39;s Homepage</title>
+    <link>/updates/</link>
+    <description>Recent content in Updates on Jaspev&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Feb 2024 00:01:24 -0700</lastBuildDate>
+    <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initialization</title>
+      <link>/updates/initialization/</link>
+      <pubDate>Sat, 03 Feb 2024 00:01:24 -0700</pubDate>
+      <guid>/updates/initialization/</guid>
+      <description>I FINALLY MADE A WEBSITE I LIKE, THAT IS EASY TO UPDATE AND MANAGE, AND THIS IS THE FIRST UPDATE POST. I made a more in-depth blog post about the history of this site, and also how this site was made if you want to learn more.</description>
+    </item>
+  </channel>
+</rss>

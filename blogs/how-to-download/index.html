@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>How to Download Everything on the Internet | Jaspev&#39;s Homepage</title>
+<link rel="canonical" href="../../">
+<link rel='alternate' type='application/rss+xml' title="Jaspev&#39;s Homepage RSS" href='../../index.xml'>
+<link rel='stylesheet' type='text/css' href='../../style.css'>
+<meta name="description" content="Secretly an intro into working with command-line Not as scary as it sounds, I promise! No more going to sketchy websites for downloading YouTube videos, Twitter videos, songs off Soundcloud, songs off Bandcamp, etc. There is a way to download content from these sites directly and easily with no sketchy website, all from an application on your computer. You can set this up on any OS, but I&rsquo;m specifically going to show you how to set it up on a Windows 10 PC, because that&rsquo;s what I have, and stats show that&rsquo;s probably what you have too.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="main">
+			<div class="hbox">
+				<div class="vbox">
+					<nav> 
+	<header style="padding-bottom:10px; padding-top:10px">
+		<h2 class="wavyheader" style="width: 88px;">
+			<a href="../../">
+				<span style="--i:0">J</span><span style="--i:1">A</span><span style="--i:2">S</span><span style="--i:3">P</span><span style="--i:4">E</span><span style="--i:5">V</span>
+			</a>
+		</h2>
+	</header>
+	<hr>
+	<div style="padding-top:10px">
+		<ul style="text-align: center;">
+			
+				<li>
+					<a href="../../about/">
+						About</a>
+				</li>
+			
+				<li>
+					<a href="../../blogs/">
+						Blogs</a>
+				</li>
+			
+				<li>
+					<a href="../../contact/">
+						Contact</a>
+				</li>
+			
+				<li>
+					<a href="../../games/">
+						Games</a>
+				</li>
+			
+				<li>
+					<a href="../../misc/">
+						Misc</a>
+				</li>
+			
+				<li>
+					<a href="../../music/">
+						Music</a>
+				</li>
+			
+				<li>
+					<a href="../../resources/">
+						Resources</a>
+				</li>
+			
+				<li>
+					<a href="../../samples/">
+						Samples</a>
+				</li>
+			
+				<li>
+					<a href="../../updates/">
+						Updates</a>
+				</li>
+			
+				<li>
+					<a href="../../visuals/">
+						Visuals</a>
+				</li>
+			
+		</ul>
+	</div>
+</nav>
+				</div>
+				<div class="vbox">
+					<main style="padding:20px; padding-right:0px;">
+						
+	
+		2024.01.30
+	
+	<h1>
+		How to Download Everything On The Internet
+	</h1>
+	<h3 id="secretly-an-intro-into-working-with-command-line"><em>Secretly an intro into working with command-line</em></h3>
+<br>
+<h5 id="not-as-scary-as-it-sounds-i-promise"><em>Not as scary as it sounds, I promise!</em></h5>
+<br>
+<p>No more going to sketchy websites for downloading YouTube videos, Twitter videos, songs off Soundcloud, songs off Bandcamp, etc. There is a way to download content from these sites directly and easily with no sketchy website, all from an application on your computer. You can set this up on any OS, but I&rsquo;m specifically going to show you how to set it up on a Windows 10 PC, because that&rsquo;s what I have, and stats show that&rsquo;s probably what you have too.</p>
+<br>
+<p>The application is called <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a>! I&rsquo;m making this tutorial because I genuinely think everyone should know how to use yt-dlp, and because installing yt-dlp, for the average person, is actually kind of complicated. I also somehow cannot find any really comprehensive guides that start from the absolute beginning for people with Windows PCs.</p>
+<br>
+<h2 id="step-one-kind-of">Step one! Kind of&hellip;</h2>
+<br>
+<p>Download yt-dlp! Usually, with normal programs, you&rsquo;d just go to it&rsquo;s website and click the big &ldquo;DOWNLOAD&rdquo; button, and there you have it. Not with yt-dlp. yt-dlp is a command-line program (which if you don&rsquo;t use command-line programs, that may sound scary, but I promise it isn&rsquo;t, and learning how to download and use command-line programs can be very useful.). These are the steps to download yt-dlp:</p>
+<br>
+<p><code>1.</code> Install python through it&rsquo;s website.
+<br>
+<code>2.</code> Install pip using python through command-line.
+<br>
+<code>3.</code> Install yt-dlp using pip.</p>
+<br>
+<h2 id="step-one-actually">Step one, actually!</h2>
+<br>
+<p>So the <strong>actual</strong> step one to downloading yt-dlp is to download python. You can do that at the <a href="https://www.python.org/downloads/windows/">python.org downloads page</a>. Click whatever the top link in the &ldquo;Stable Releases&rdquo; column is, scroll down on that page to the &ldquo;Files&rdquo; section and click the &ldquo;Windows installer (64-bit)&rdquo;. It&rsquo;ll probably be somewhere at the bottom of that list. Once you click that, It should install, and you can run that application and setup python!</p>
+<br>
+<h2 id="step-two-pip">Step two, pip:</h2>
+<br>
+<p>After python is installed, we can to do step 2: install pip, which allows us to install yt-dlp. To install pip we use Python in the command line. To open the command line on Windows 10, I press Win-X, this opens a menu with a bunch of different pre-installed Windows apps, then you can just click &ldquo;Command Prompt&rdquo; (or you can just press A with that list open, which is what I do) and it&rsquo;ll open the command line. You&rsquo;re going to need the command-line for the rest of this tutorial. To test if you installed Python correctly, type this into command prompt:</p>
+<br>
+<p><code>python --version</code></p>
+<br>
+<p>It should say &ldquo;Python 3.10.4&rdquo; or something like that, the verison number might be slightly different for you. If it doesn&rsquo;t say that and gives you an error saying something like &ldquo;&lsquo;python&rsquo; is not recognized as an internal or external command&rdquo;, then you installed Python incorrectly. Once you install it correctly, pip might of been installed automatically when you installed Python. To check that, type this in the command line:</p>
+<br>
+<p><code>pip --version</code></p>
+<br>
+<p>If it gives you a version number, great! Go to step three. If it doesn&rsquo;t, type:</p>
+<br>
+<p><code>python get-pip.py</code></p>
+<br>
+<p>And that should install it. Test again using &ldquo;pip &ndash;verision&rdquo; and it should give you the version number, then you can go to the next step.</p>
+<br>
+<h2 id="step-three-yt-dlp">Step three, yt-dlp:</h2>
+<h3 id="finally"><em>Finally!</em></h3>
+<br>
+<p>After pip is installed, we can finally install yt-dlp! Just type:</p>
+<br>
+<p><code>pip install yt-dlp</code></p>
+<br>
+<p>And it should start installing. Once it&rsquo;s done, test it by typing:</p>
+<br>
+<p><code>yt-dlp --version</code></p>
+<br>
+<p>And, if you get no errors, you&rsquo;re good to start using yt-dlp! But before I show you how to download anything, let me explain a little about what you&rsquo;ve been looking at in your command prompt. That text before where you type is telling you where your working directory is (it probably says something like &ldquo;C:\WINDOWS\system32&rdquo;). Anything you download with yt-dlp will download in whatever your current working directoy is, <em>which is annoying!</em> But we luckily can change the default download directory, so it ignores whatever your command line working directory is, and downloads to the same folder every single time. Before we do that though, lets download something, just to check that everything is working.</p>
+<br>
+<h2 id="brief-summary-on-downloading">Brief summary on downloading:</h2>
+<h3 id="mostly-a-summary-on-changing-directory"><em>Mostly a summary on changing directory.</em></h3>
+<br>
+<p>First let&rsquo;s change our directory so aren&rsquo;t downloading a video into our system32 folder. To do that we just type &ldquo;cd&rdquo; followed by whatever directory we want to download to (cd standing for &ldquo;change directory&rdquo;). Say I wanted to change my directory to my downloads folder. How I personally would do that is just open my downloads folder in my file explorer, then click and copy the directory at the top, then go to my command prompt and type cd, then I&rsquo;d paste the directory I copied. So to change my directory to my downloads folder, I&rsquo;d basically be typing:</p>
+<br>
+<p><code>cd C:\Users\Jaspev\Downloads</code></p>
+<br>
+<p>Say you wanted to download to a diffrent drive. You can&rsquo;t cd between drives. You need to specifically type the name of the drive first, press enter, then you&rsquo;d be in that new drive and you could cd anywhere in that drive after that. So if I wanted to go to my E: drive&rsquo;s &ldquo;downloads&rdquo; folder, I&rsquo;d first type &ldquo;E:&rdquo; then press enter. Then I&rsquo;d type:</p>
+<br>
+<p><code>cd E:\Downloads</code></p>
+<br>
+<p>Now we can finally start downloading something. To download something with yt-dlp you simply just type &ldquo;yt-dlp&rdquo; followed by the link to whatever you want to download. So if I want to download <a href="https://youtu.be/jNQXAC9IVRw">this</a> amazing video from YouTube, I just type:</p>
+<br>
+<p><code>yt-dlp https://youtu.be/jNQXAC9IVRw</code></p>
+<br>
+<p>But you can see why doing all this would be pretty annoying though, even if you do remember exactly what to type to get to your downloads directory (or whatever directory you want to download to), it still takes a decent amount of time, and the whole point of using yt-dlp is to be quicker than going to a website and using that. But luckily yt-dlp lets you have a config file that automatically changes certain settings every time you run a yt-dlp command, and one of those settings can change the default download location of everything we download!</p>
+<br>
+<h2 id="changing-the-default-downloads-location">Changing the default downloads location:</h2>
+<br>
+<p>We need to first find where to put our config. You need to put your config in your roaming appdata folder, specifically in a folder called &ldquo;yt-dlp&rdquo;. To find your roaming appdata folder, lets use the command prompt again, :) just cause we have it open. All you need to type is:</p>
+<br>
+<p><code>start %appdata%</code></p>
+<br>
+<p>And it should open your appdata folder. In that folder make a new folder, titled &ldquo;yt-dlp&rdquo; (if it doesn&rsquo;t already exist). And in that yt-dlp folder, make a new file just titled &ldquo;config&rdquo;. This file shouldn&rsquo;t be a text file, it shouldn&rsquo;t be any type of file, it should have no file extension. To edit this file, I would double click it and Windows should give you a pop-up asking what program you want to open it with. I&rsquo;d just click any text editor you want to use, like notepad. After you have this open in notepad, type &ldquo;-o&rdquo; followed by whatever directory you want your downloads to go to, then after that, you need to tell yt-dlp what the name of the downloaded file is going to be called. All of this will be in quotations, aside from the &ldquo;-o&rdquo;. I want mine to download to my normal C drive downloads, and just have the name of whatever the file is titled. So I&rsquo;ll do this:</p>
+<br>
+<p style="text-align: left;">-o "C:\Users\Jaspev\Downloads\%(title)s.%(ext)s"</p>
+<br>
+<p>So with that, any time I download a file, it will download to my downloads directory, and it&rsquo;s name will be it&rsquo;s title on YouTube (or wherever I&rsquo;m downloading from). It will know the title because I did %(title)s. The &ldquo;.%(ext)s&rdquo; at the end is the file extension (that part is very important). But that&rsquo;s basically it! Now you can download any video from YouTube, Twitter, TikTok, etc., any song from Soundcloud, Bandcamp, and any content from many other websites. It doesn&rsquo;t work with Spotify though. Spotify has strict DRM, the only known way (as far as I know) is to just directly record Spotify, which is what an application called <a href="https://jwallet.github.io/spy-spotify/overview.html">Spyify</a> can do for you (I haven&rsquo;t tested it, I&rsquo;ve just read about it, use at your own risk).</p>
+<br>
+<h2 id="other-miscellaneous-things-yt-dlp-can-do">Other miscellaneous things yt-dlp can do:</h2>
+<br>
+<p>Yt-dlp can also do things like convert a YouTube video to audio, or download the thumbnail along with a song from Soundcloud. To convert a YouTube video to audio, you&rsquo;d just put &ldquo;-x&rdquo; and the end of the command. So it would look something like this:</p>
+<br>
+<p><code>yt-dlp (link to whatever vid you're downloading) -x</code></p>
+<br>
+<p>That will export the vid to just whatever audio format. If you want to change the audio format to mp3, you&rsquo;d do the same thing as above, but add &ldquo;<code>--</code>audio-format mp3&rdquo; to the end.</p>
+<br>
+<p>You can also add &ndash;write-thumbnail to the end and it&rsquo;ll download the thumbnail/cover to the content you&rsquo;re downloading.</p>
+<br>
+<p>Yt-dlp has a rediculous amount of different options and stuff you can do with it, you can see the full list on the yt-dlp github <a href="https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#general-options">here</a>.</p>
+<br>
+<h2 id="recap">Recap:</h2>
+<br>
+<p>So any time you want to download something like a YouTube video, these are the steps now that you have yt-dlp installed:</p>
+<br>
+<p><strong><code>1.</code></strong> Copy the link to the content you want to download
+<br>
+<strong><code>2.</code></strong> Press Win+X
+<br>
+<strong><code>3.</code></strong> When the window in the bottom left opens up, press A and the command prompt should open up.
+<br>
+<strong><code>4.</code></strong> In the command prompt type yt-dlp and paste the link you copied, then press enter, and it should download to wherever you set your download directory in the config file.</p>
+<br>
+<p>Thank you for reading, I hope this tutorial worked for you! :)</p>
+
+	
+
+					</main>
+				</div>
+			</div>
+			<div class="center">
+				<footer>
+	This site was made with <a href="https://gohugo.io/">Hugo</a>, hosted on <a href="https://pages.github.com/">Github Pages</a>.
+</footer>
+			</div>
+		</div>
+	</body>
+</html>
