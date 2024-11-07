@@ -6,8 +6,15 @@
     <description>Recent content in Updates on Jaspev&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2024 00:01:24 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 22:12:45 -0700</lastBuildDate>
     <atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello small end of year update</title>
+      <link>/updates/resourcestableofcontents/</link>
+      <pubDate>Wed, 06 Nov 2024 22:12:45 -0700</pubDate>
+      <guid>/updates/resourcestableofcontents/</guid>
+      <description>Almost a year later after the initilization of the site, making my first real update to the site lol. Added a ton of new resources to the resources page along with a table of contents, deleted socials on the about page, deleted a blog post cause it was outdated, and some other small rewordings of some stuff around the site.</description>
+    </item>
     <item>
       <title>Initialization</title>
       <link>/updates/initialization/</link>

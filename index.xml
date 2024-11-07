@@ -6,21 +6,21 @@
     <description>Recent content on Jaspev&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2024 00:01:24 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 22:12:45 -0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello small end of year update</title>
+      <link>/updates/resourcestableofcontents/</link>
+      <pubDate>Wed, 06 Nov 2024 22:12:45 -0700</pubDate>
+      <guid>/updates/resourcestableofcontents/</guid>
+      <description>Almost a year later after the initilization of the site, making my first real update to the site lol. Added a ton of new resources to the resources page along with a table of contents, deleted socials on the about page, deleted a blog post cause it was outdated, and some other small rewordings of some stuff around the site.</description>
+    </item>
     <item>
       <title>Initialization</title>
       <link>/updates/initialization/</link>
       <pubDate>Sat, 03 Feb 2024 00:01:24 -0700</pubDate>
       <guid>/updates/initialization/</guid>
       <description>I FINALLY MADE A WEBSITE I LIKE, THAT IS EASY TO UPDATE AND MANAGE, AND THIS IS THE FIRST UPDATE POST. I made a more in-depth blog post about the history of this site, and also how this site was made if you want to learn more.</description>
-    </item>
-    <item>
-      <title>How to Download Everything On The Internet</title>
-      <link>/blogs/how-to-download/</link>
-      <pubDate>Tue, 30 Jan 2024 11:23:30 -0700</pubDate>
-      <guid>/blogs/how-to-download/</guid>
-      <description>Secretly an intro into working with command-line Not as scary as it sounds, I promise! No more going to sketchy websites for downloading YouTube videos, Twitter videos, songs off Soundcloud, songs off Bandcamp, etc. There is a way to download content from these sites directly and easily with no sketchy website, all from an application on your computer. You can set this up on any OS, but I&amp;rsquo;m specifically going to show you how to set it up on a Windows 10 PC, because that&amp;rsquo;s what I have, and stats show that&amp;rsquo;s probably what you have too.</description>
     </item>
     <item>
       <title>Like Blood From a Stone</title>
@@ -48,14 +48,14 @@
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/about/</guid>
-      <description>Hello! I&amp;rsquo;m Jaspev. I made the site you&amp;rsquo;re looking at right now. :) I make music, I make games, I make websites, I make samples, I make visuals. I make a lot of stuff. You can see all my work in the nav on the left. If you wanna contact me for anything, please do! You can find me here:&#xA;Twitter&#xA;YouTube&#xA;Soundcloud&#xA;Bandcamp I have a Discord server as well, originally made for a music YouTube channel I run, which is now used for music events.</description>
+      <description>Hello! I&amp;rsquo;m Jaspev. I made the site you&amp;rsquo;re looking at right now. :) I make music, I make games, I make websites, I make samples, I make visuals. I make a lot of stuff. You can see all my work in the nav on the left. If you wanna contact me for anything, please do! I have a Discord server as well, originally made for a music YouTube channel I run, which is now used for music events.</description>
     </item>
     <item>
       <title>Contact</title>
       <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/contact/</guid>
-      <description>If you have a question for me, or if you find a problem with this site, feel free to contact me through the methods below.&#xA;This list is in order of response speed (fastest at the top):&#xA;Discord: jaspev&#xA;Twitter: @jaspevv&#xA;Email: jaspevyt@gmail.com</description>
+      <description>If you have a question for me, or if you just need to contact me for whatever reason, feel free to contact me through the methods below. I check the email maybe once per year, but over Discord, I&amp;rsquo;ll probably respond instantly as long as I&amp;rsquo;m online.&#xA;Discord: jaspev&#xA;Email: jaspevyt@gmail.com</description>
     </item>
     <item>
       <title>Games</title>
@@ -83,7 +83,7 @@
       <link>/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/resources/</guid>
-      <description>Just a massive list of sites that I like, no particular order. Contains other site resources / directories, fun websites to play around in, archival sites, literature, tools, sites that I simply think look clean, and artists&amp;rsquo; sites that I like.&#xA;I&amp;rsquo;d like to note, click around here at your own risk. I&amp;rsquo;m pretty sure (as of making this list, 2024.02.02) all these links are safe. But I&amp;rsquo;m not going to put too much effort into maintaining this list at all, to be honest.</description>
+      <description>Table of Contents&#xD;Other Site Resources / Directories Fun Archive Articles/Writing Tools Artists Visually Clean Just a massive list of sites that I like, no particular order. Contains other site resources / directories, fun websites to play around in, archival sites, literature, tools, sites that I simply think look clean, and artists&amp;rsquo; sites that I like.&#xA;I&amp;rsquo;d like to note, click around here at your own risk. I&amp;rsquo;m pretty sure (as of making this list, 2024.</description>
     </item>
     <item>
       <title>Samples</title>
